@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('waktu_bap')->nullable();
           //  $table->string('baptis')->nullable();
             $table->date('tglbap')->nullable();
+            $table->string('pendeta_bap')->nullable();
          
      
             $table->timestamps();
